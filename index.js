@@ -1,4 +1,7 @@
 const init = () => {
   console.log('Bazinga');
 };
-module.exports = init;
+
+module.exports = {
+  init
+};
