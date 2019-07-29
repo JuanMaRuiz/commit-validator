@@ -1,0 +1,31 @@
+{
+  "name": "commit-validator",
+  "version": "1.0.0",
+  "description": "Package to validate git commits according your configuration",
+  "main": "cli.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMaRuiz/commit-validator.git"
+  },
+  "keywords": [
+    "commit",
+    "validator",
+    "git",
+    "cli"
+  ],
+  "author": "JuanMa Ruiz <ruizjuanma@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanMaRuiz/commit-validator/issues"
+  },
+  "homepage": "https://github.com/JuanMaRuiz/commit-validator#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chalk": "^2.4.2",
+    "find-git-root": "^1.0.2",
+    "mocha": "^6.2.0"
+  }
+}
