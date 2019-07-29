@@ -4,6 +4,7 @@
   "description": "Package to validate git commits according your configuration",
   "main": "cli.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "mocha"
   },
   "repository": {
@@ -25,6 +26,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chalk": "^2.4.2",
+    "eslint": "^6.1.0",
     "find-git-root": "^1.0.2",
     "mocha": "^6.2.0"
   }
