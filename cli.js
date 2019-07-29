@@ -1,1 +1,5 @@
-console.log('Bazinga');
+#!/usr/bin/node node
+
+const { init } = require('./index');
+
+init();
