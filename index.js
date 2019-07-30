@@ -1,7 +1,3 @@
-const init = () => {
-  console.log('Bazinga');
-};
+const validator = require('./msg-validator');
 
-module.exports = {
-  init
-};
+module.exports = () => validator.validate(process.argv);
