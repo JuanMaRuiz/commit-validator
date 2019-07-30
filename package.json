@@ -6,7 +6,8 @@
   "cli": "cli.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha"
+    "test": "mocha",
+    "test:coverage": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "chalk": "^2.4.2",
     "eslint": "^6.1.0",
     "find-git-root": "^1.0.2",
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
   }
 }
